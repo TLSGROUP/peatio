@@ -4,3 +4,6 @@ Peatio::Blockchain.registry[:parity] = Ethereum::Eth::Blockchain
 Peatio::Blockchain.registry[:"geth-bsc"] = Ethereum::Bsc::Blockchain
 Peatio::Blockchain.registry[:"geth-heco"] = Ethereum::Heco::Blockchain
 Peatio::Blockchain.registry[:old_bitcoin] = OldBitcoin::Blockchain
+Peatio::Blockchain.registry[:ravencoin] = Ravencoin::Blockchain
+Peatio::Blockchain.registry[:dogecoin] = Dogecoin::Blockchain
+Peatio::Blockchain.registry[:blockchainenergy] = Blockchainenergy::Blockchain
