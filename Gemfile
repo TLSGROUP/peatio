@@ -76,12 +76,12 @@ end
 group :test do
   gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
   gem 'rspec-retry',         '~> 0.6'
-  gem 'webmock',             '~> 3.5'
+  gem 'webmock', '~> 3.13', '>= 3.13.0'
   gem 'database_cleaner',    '~> 1.7'
   gem 'mocha',               '~> 1.8', require: false
   gem 'factory_bot_rails', '~> 5.0', '>= 5.0.2'
   gem 'timecop',             '~> 0.9'
-  gem 'rubocop-rspec',       '~> 1.32', require: false
+  gem 'rubocop-rspec', '~> 2.0', '>= 2.0.0', require: false
 end
 
 # Load gems from Gemfile.plugin.
