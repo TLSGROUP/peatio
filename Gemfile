@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 ruby '~> 2.6'
 
 gem 'ransack', '~> 2.3.2'
-gem 'rails', '~> 5.2.4.5'
+gem 'rails', '~> 7.0.0.0'
 gem 'puma', '~> 3.12.2'
 gem 'mysql2', '~> 0.5.2'
 gem 'redis', '~> 4.1.2', require: ['redis', 'redis/connection/hiredis']
@@ -19,7 +19,7 @@ gem 'cancancan', '~> 3.1.0'
 gem 'enumerize', '~> 2.2.2'
 gem 'kaminari', '~> 1.2.1'
 gem 'rbtree', '~> 0.4.2'
-gem 'grape', '~> 1.3.1'
+gem 'grape', '~> 2.1.0'
 gem 'grape-entity', '~> 0.7.1'
 gem 'grape-swagger', '~> 0.30.1'
 gem 'grape-swagger-ui', '~> 2.2.8'
@@ -81,7 +81,7 @@ group :test do
   gem 'mocha',               '~> 1.8', require: false
   gem 'factory_bot_rails', '~> 5.0', '>= 5.0.2'
   gem 'timecop',             '~> 0.9'
-  gem 'rubocop-rspec',       '~> 1.32', require: false
+  gem 'rubocop-rspec', '~> 3.5', '>= 3.5.0', require: false
 end
 
 # Load gems from Gemfile.plugin.
