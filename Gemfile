@@ -19,7 +19,7 @@ gem 'cancancan', '~> 3.1.0'
 gem 'enumerize', '~> 2.2.2'
 gem 'kaminari', '~> 1.2.1'
 gem 'rbtree', '~> 0.4.2'
-gem 'grape', '~> 1.3.1'
+gem 'grape', '~> 2.4.0'
 gem 'grape-entity', '~> 0.7.1'
 gem 'grape-swagger', '~> 0.30.1'
 gem 'grape-swagger-ui', '~> 2.2.8'
@@ -79,7 +79,7 @@ group :test do
   gem 'webmock',             '~> 3.5'
   gem 'database_cleaner',    '~> 1.7'
   gem 'mocha',               '~> 1.8', require: false
-  gem 'factory_bot_rails', '~> 5.0', '>= 5.0.2'
+  gem 'factory_bot_rails', '~> 6.5', '>= 6.5.0'
   gem 'timecop',             '~> 0.9'
   gem 'rubocop-rspec',       '~> 1.32', require: false
 end
